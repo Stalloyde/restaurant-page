@@ -25,6 +25,7 @@
     color:black;
     font-weight: bolder;
     padding: 1rem;
+    text-align: end;
 }
 
 .catch-phrase {    
@@ -33,18 +34,30 @@
     font-size: 1rem;
     color: black;
     padding: 1rem;
-    padding-left: 3rem;
+    text-align: end;
 }
 
 .tab-container {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
+    display: grid;
+    grid-template-rows: 1fr 7fr;
     padding: 1rem;
 }
 
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .home-tab, .menu-tab, .contact-tab {
+    font-weight: 800;
     height: 50px;
-    width: 100px;
-    border-radius: 10px;
+    width: 400px;
+    border: 0;
+    border-radius: 5px 20px 5px 20px;
+}
+
+.home-tab:hover, .menu-tab:hover, .contact-tab:hover {
+    background-color: rgb(179, 44, 44);
+    cursor: pointer;
 }
