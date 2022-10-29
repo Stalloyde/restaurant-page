@@ -43,4 +43,53 @@
     background-color: rgb(179, 44, 44);
     cursor: pointer;
     color: white;
+    border: 1px solid black;
+}
+
+.tab-content {
+    display: grid;
+    grid-template-rows: max-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: grid;
+    align-items: center;
+    padding: 10px;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.phrase {
+    display: grid;
+    padding: 10px;
+}
+
+.phrase2 {
+    font-size: 20px;
+    padding: 50px;
+}
+
+.reserve-btn-container {
+    display: grid;
+    justify-content: center;
+}
+
+.reserve-btn {
+    font-size: 16px;
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 0;
+    border-radius: 20px 5px 20px 5px;
+}
+
+
+.reserve-btn:hover {
+    background-color: rgb(179, 44, 44);
+    cursor: pointer;
+    color: white;
+    border: 1px solid black;
 }
