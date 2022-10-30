@@ -27,7 +27,7 @@
 
 .tab-content {
     display: grid;
-    grid-template-rows: max-content;
+    grid-template-rows: 1fr 0.1fr 1fr 1fr 1fr 0.1fr;
     justify-content: center;
     align-items: center;
 }
@@ -69,6 +69,8 @@
 }
 
 .phrase2, .phrase3 {
+    display:flex;
+    align-items: center;
     font-size: 20px;
     padding: 10px 50px;
 }
