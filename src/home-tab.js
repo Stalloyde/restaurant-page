@@ -1,14 +1,15 @@
 const tabContent = document.querySelector(".tab-content");
 
 export function homeTabContent () {
+    
     const title = document.createElement("div");
     title.className = "title";
-    title.textContent = "The Best Kebab In The World!";
+    title.textContent = "Baba Grill House";
     tabContent.appendChild(title);
 
     const slogan = document.createElement("div");
     slogan.className = "slogan";
-    slogan.textContent = "Sometimes the best thing comes in a giant rotating skewer";
+    slogan.textContent = "The best Kebabs in the World!";
     tabContent.appendChild(slogan);
     
     const phrase1 = document.createElement("div");
