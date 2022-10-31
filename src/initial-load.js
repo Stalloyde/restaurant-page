@@ -1,9 +1,9 @@
 const content = document.getElementById("content");
 
 export function loadImages () {
-    const image = document.createElement("div");
+    const image = document.createElement("img");
     image.className = "background-img";
-    image.innerHTML = "<img src= /home/stalloyde/repos/restaurant-page/src/kebab.jpg>";
+    image.src = "/home/stalloyde/repos/restaurant-page/src/kebab.jpg";
     content.appendChild(image);
 };
 
