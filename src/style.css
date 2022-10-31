@@ -30,7 +30,7 @@ img {
 
 .tab-content {
     display: grid;
-    grid-template-rows: 0.5fr 0.1fr 0.7fr 0.5fr 200px 0.3fr;
+    grid-template-rows: 150px 1fr 1fr 1fr 150px 150px;
     justify-content: center;
     align-items: center;
 }
