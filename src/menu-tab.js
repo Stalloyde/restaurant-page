@@ -1,8 +1,8 @@
 const tabContent = document.querySelector(".tab-content");
 
 export function menuTabContent ()  {
-    const image = document.createElement("div");
+    const image = document.createElement("img");
     image.className = "menu-img";
-    image.innerHTML = "<img src= /home/stalloyde/repos/restaurant-page/src/menu.png>";
+    image.src = "/home/stalloyde/repos/restaurant-page/src/menu.gif";
     tabContent.appendChild(image);
 }
