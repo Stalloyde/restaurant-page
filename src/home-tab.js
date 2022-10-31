@@ -60,5 +60,3 @@ export function homeTabContent () {
     locationContainer.appendChild(locationInfo);
     locationInfo.textContent = "#01-423, Hue Mall, 46 Turkish Avenue, G88623, Turkey";
 }
-
-// add opening hours & location at home page, social media logos at footer
