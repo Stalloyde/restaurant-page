@@ -11,21 +11,21 @@ export function homeTabContent () {
     slogan.textContent = "Sometimes the best thing comes in a giant rotating skewer";
     tabContent.appendChild(slogan);
     
-    const phrase2 = document.createElement("div");
-    phrase2.className = "phrase2";
-    phrase2.textContent = `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    const phrase1 = document.createElement("div");
+    phrase1.className = "phrase1";
+    phrase1.textContent = `Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Corporis quos voluptas illum tenetur culpa tempore facilis at debitis doloribus, 
     ducimus laudantium praesentium et aut rem ea labore maxime molestiae ipsum repellendus
      ullam! Similique, ut quoc`;
-    tabContent.appendChild(phrase2);
+    tabContent.appendChild(phrase1);
 
-    const phrase3 = document.createElement("div");
-    phrase3.className = "phrase3";
-    phrase3.textContent = `"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    const phrase2 = document.createElement("div");
+    phrase2.className = "phrase2";
+    phrase2.textContent = `"Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Corporis quos voluptas illum tenetur culpa tempore facilis at debitis doloribus, 
     ducimus laudantium praesentium et aut rem ea labore maxime molestiae ipsum repellendus
      ullam! Similique, ut quoc.."`;
-    tabContent.appendChild(phrase3);
+    tabContent.appendChild(phrase2);
 
     const reserveBtnContainer = document.createElement("div");
     reserveBtnContainer.className = "reserve-btn-container";

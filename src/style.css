@@ -70,7 +70,7 @@ img {
     padding: 10px;
 }
 
-.phrase2, .phrase3 {
+.phrase1, .phrase2 {
     display:flex;
     align-items: center;
     font-size: 20px;
