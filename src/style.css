@@ -11,7 +11,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-size: 24px;
+    font-size: 30px;
     width: 100%;
 }
 
@@ -32,7 +32,7 @@ img {
     
 .tab-container {
     display: grid;
-    grid-template-rows: 100px 1000px;
+    grid-template-rows: 1fr 8fr;
     padding: 10px;
 }
 
@@ -50,17 +50,18 @@ img {
     align-items: center;
 }
 
-.home-tab, .menu-tab, .contact-tab {
+.home-tab, .menu-tab, .reserve-tab {
     background-color: rgb(179, 44, 44);
     color: white;
     font-weight: 800;
-    height: 50px;
+    height: 70px;
     width: 100%;
     border: 0;
+    font-size: 24px;
     border-radius: 5px 20px 5px 20px;
 }
 
-.home-tab:hover, .menu-tab:hover, .contact-tab:hover {
+.home-tab:hover, .menu-tab:hover, .reserve-tab:hover {
     background-color: black;
     cursor: pointer;
     color: white;
@@ -83,7 +84,7 @@ img {
 .phrase1, .phrase2 {
     display:flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 24px;
     padding: 10px 50px;
 }
 
@@ -97,8 +98,8 @@ img {
 .reserve-btn {
     background-color: rgb(179, 44, 44);
     color: white;
-    font-size: 20px;
-    height: 50px;
+    font-size: 24px;
+    height: 70px;
     width: 200px;
     border-radius: 10px;
     font-weight: 800;
@@ -126,7 +127,7 @@ img {
 }
 
 .opening-hours-info, .location-info {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: normal;
 }
 
