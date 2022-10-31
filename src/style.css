@@ -17,7 +17,7 @@
 
 #content {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1300px;
     grid-template-columns: 4fr 6fr;
 }
 
@@ -32,13 +32,13 @@ img {
     
 .tab-container {
     display: grid;
-    grid-template-rows: 1fr 8fr;
+    grid-template-rows: 100px 1150px;
     padding: 10px;
 }
 
 .tab-content {
     display: grid;
-    grid-template-rows: 0.1fr 0.1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.1fr 0.1fr 1fr 1fr 1fr;
     grid-template-columns: 0.9fr;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@ img {
     background-color: rgb(179, 44, 44);
     color: white;
     font-weight: 800;
-    height: 70px;
+    height: 60px;
     width: 100%;
     border: 0;
     font-size: 24px;
@@ -99,8 +99,8 @@ img {
     background-color: rgb(179, 44, 44);
     color: white;
     font-size: 24px;
-    height: 70px;
-    width: 200px;
+    height: 60px;
+    width: 230px;
     border-radius: 10px;
     font-weight: 800;
     border: 0;
@@ -133,5 +133,5 @@ img {
 
 .menu-img {
     display: grid;
-    grid-row: 1 / 7;
+    grid-row: 1 / 6;
 }
