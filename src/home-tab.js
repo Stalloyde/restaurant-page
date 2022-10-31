@@ -34,7 +34,7 @@ export function homeTabContent () {
     
     const reserveBtn = document.createElement("button");
     reserveBtn.className = "reserve-btn";
-    reserveBtn.textContent = "Make a Reservation";
+    reserveBtn.textContent = "Make Reservation";
     reserveBtnContainer.appendChild(reserveBtn);   
 
 

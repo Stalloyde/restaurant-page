@@ -30,11 +30,11 @@ export function createMenuTab () {
     tabButtons.appendChild(menuTab);
 };
 
-export function createContactTab () {
-    const contactTab = document.createElement("button");
-    contactTab.className = "contact-tab";
-    contactTab.textContent = "Contact";
-    tabButtons.appendChild(contactTab);
+export function createReserveTab () {
+    const reserveTab = document.createElement("button");
+    reserveTab.className = "reserve-tab";
+    reserveTab.textContent = "Make Reservation";
+    tabButtons.appendChild(reserveTab);
 };
 
 const tabContent = document.createElement("div")
