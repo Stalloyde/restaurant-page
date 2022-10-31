@@ -6,10 +6,10 @@ export function homeTabContent () {
     title.textContent = "The Best Kebab In The World!";
     tabContent.appendChild(title);
 
-    const phrase = document.createElement("div");
-    phrase.className = "phrase";
-    phrase.textContent = "Sometimes the best thing comes in a giant rotating skewer";
-    tabContent.appendChild(phrase);
+    const slogan = document.createElement("div");
+    slogan.className = "slogan";
+    slogan.textContent = "Sometimes the best thing comes in a giant rotating skewer";
+    tabContent.appendChild(slogan);
     
     const phrase2 = document.createElement("div");
     phrase2.className = "phrase2";
