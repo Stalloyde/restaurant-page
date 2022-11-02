@@ -4,7 +4,7 @@ const content = document.getElementById("content");
 export function loadImages () {
     const image = document.createElement("img");
     image.className = "background-img";
-    image.src = "/home/stalloyde/repos/restaurant-page/src/kebab.jpg";
+    image.src = kebab;
     content.appendChild(image);
 };
 
