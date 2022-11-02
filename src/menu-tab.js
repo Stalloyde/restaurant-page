@@ -1,4 +1,3 @@
-import menu from './menu.gif';
 const tabContent = document.querySelector(".tab-content");
 
 export function menuTabContent ()  {
@@ -9,6 +8,6 @@ export function menuTabContent ()  {
     
     const image = document.createElement("img");
     image.className = "menu-img";
-    image.src = menu;
+    image.src = "/home/stalloyde/repos/restaurant-page/src/menu.gif";
     tabContent.appendChild(image);
 }

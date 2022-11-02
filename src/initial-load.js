@@ -1,10 +1,9 @@
-import kebab from './kebab.jpg';
 const content = document.getElementById("content");
 
 export function loadImages () {
     const image = document.createElement("img");
     image.className = "background-img";
-    image.src = kebab;
+    image.src = "/home/stalloyde/repos/restaurant-page/src/kebab.jpg";
     content.appendChild(image);
 };
 
