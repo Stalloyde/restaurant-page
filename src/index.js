@@ -1,5 +1,7 @@
 import _ from 'lodash';
 import './style.css';
+import menu from './menu.gif';
+import kebab from './kebab.jpg';
 import {loadImages, createHomeTab, createMenuTab, createReserveTab} from './initial-load.js';
 import {homeTabContent} from './home-tab.js';
 import {menuTabContent} from './menu-tab.js';
