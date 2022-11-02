@@ -1,3 +1,4 @@
+import kebab from './kebab.jpg';
 const content = document.getElementById("content");
 
 export function loadImages () {

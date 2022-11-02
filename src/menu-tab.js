@@ -1,3 +1,4 @@
+import menu from './menu.gif';
 const tabContent = document.querySelector(".tab-content");
 
 export function menuTabContent ()  {
