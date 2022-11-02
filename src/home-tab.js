@@ -34,9 +34,9 @@ export function homeTabContent () {
     
     const reserveBtn = document.createElement("button");
     reserveBtn.className = "reserve-btn";
+    reserveBtn.id= "loadreservepage-btn";
     reserveBtn.textContent = "Make Reservation";
     reserveBtnContainer.appendChild(reserveBtn);   
-
 
     const infoContainer = document.createElement("div");
     infoContainer.className = "info-container";
@@ -59,4 +59,5 @@ export function homeTabContent () {
     locationInfo.className = "location-info";
     locationContainer.appendChild(locationInfo);
     locationInfo.textContent = "#01-423, Hue Mall, 46 Turkish Avenue, G88623, Turkey";
-}
+
+};

@@ -133,5 +133,39 @@ img {
 
 .menu-img {
     display: grid;
-    grid-row: 1 / 7;
+    grid-row: 2 / 7;
+}
+
+form {
+    outline: 1px solid black;
+    display: grid;
+    grid-row: 4 / 5;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+
+label {
+    font-size: 24px;
+    font-weight: 1200px;
+}
+
+input {
+    display: block;
+    width: 70%;
+    height: 45%;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#user-pax {
+    width: 15%;
+}
+
+.submit-container {
+    display:flex;
+    justify-content: center;
 }

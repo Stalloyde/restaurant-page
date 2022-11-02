@@ -5,12 +5,18 @@ import {homeTabContent} from './home-tab.js';
 import {menuTabContent} from './menu-tab.js';
 import {reserveTabContent} from './reserve-tab.js';
 
+function activateReserveBtn () {
+    const reserveBtn = document.getElementById("loadreservepage-btn");
+    reserveBtn.addEventListener("click", loadReservePage)
+};
+
 (function loadInitialPage () {
     loadImages();
     createHomeTab()
     createMenuTab()
     createReserveTab()
     homeTabContent();
+    activateReserveBtn();
 })();
 
 function clearPage () {
@@ -21,8 +27,7 @@ function clearPage () {
 function loadHomePage () {
     clearPage();
     homeTabContent();
-    const reserveBtn = document.querySelector(".reserve-btn");
-    reserveBtn.addEventListener("click", loadReservePage)
+    activateReserveBtn();
 };
 
 function loadMenuPage () {
@@ -33,6 +38,7 @@ function loadMenuPage () {
 function loadReservePage () {
     clearPage();
     reserveTabContent()
+
 };
 
 const homeTabBtn = document.querySelector(".home-tab");
@@ -42,4 +48,3 @@ const reserveTabBtn = document.querySelector(".reserve-tab");
 homeTabBtn.addEventListener("click", loadHomePage);
 menuTabBtn.addEventListener("click", loadMenuPage);
 reserveTabBtn.addEventListener("click", loadReservePage);
-
