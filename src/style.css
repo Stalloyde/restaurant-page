@@ -139,8 +139,7 @@ img {
 form {
     outline: 1px solid black;
     display: grid;
-    grid-row: 4 / 5;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
     padding: 30px;
     background-color: cornsilk;
