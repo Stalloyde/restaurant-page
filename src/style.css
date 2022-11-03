@@ -22,6 +22,8 @@
 }
 
 .background-img {
+    background-image: url(./kebab.jpg);
+    background-size: 100% 100%;
     grid-row: 1;
     grid-column-start: 1;
 }
@@ -134,6 +136,8 @@ img {
 .menu-img {
     display: grid;
     grid-row: 2 / 7;
+    background-image: url(./menu.gif);
+    background-size: 100% 100%;
 }
 
 form {
