@@ -14,10 +14,13 @@ const paxContainer = document.createElement("div");
 const pax = document.createElement("label");
 const paxInput = document.createElement("input");
 const requestContainer = document.createElement("div");
+const request = document.createElement("label");
 const requestInput = document.createElement("input");
 const dateContainer = document.createElement("div");
+const date = document.createElement("label");
 const dateInput = document.createElement("input");
 const timeContainer = document.createElement("div");
+const time = document.createElement("label");
 const timeInput = document.createElement("input");
 const submitContainer = document.createElement("div");
 const submit = document.createElement("input");
@@ -119,6 +122,11 @@ function createRequestContainer ()  {
     form.appendChild(requestContainer);
     const request = document.createElement("label");
     request.setAttribute("for","user-request");
+    requestContainer.appendChild(request);
+};
+
+function createRequestLabel ()  {
+    request.setAttribute("for","request-label");
     request.textContent = "Special Requests (We'll do our best to accomodate): ";
     requestContainer.appendChild(request);
 };
@@ -134,7 +142,10 @@ function createRequestInput ()  {
 function createDateContainer ()  {
     dateContainer.className = "date-container"
     form.appendChild(dateContainer);
-    const date = document.createElement("label");
+    dateContainer.appendChild(date);
+};
+
+function createDateLabel ()  {
     date.setAttribute("for","user-date");
     date.textContent = "Date of Reservation: ";
     dateContainer.appendChild(date);
@@ -158,7 +169,10 @@ function createDateInput ()  {
 function createTimeContainer ()  {
     timeContainer.className = "time-container"
     form.appendChild(timeContainer);
-    const time = document.createElement("label");
+    timeContainer.appendChild(time);
+};
+
+function createTimeLabel ()  {
     time.setAttribute("for","user-time");
     time.textContent = "Time of Reservation (10:00 - 22:00): ";
     timeContainer.appendChild(time);
@@ -204,11 +218,14 @@ export function reserveTabContent ()  {
     createPaxLabel();
     createPaxInput();
     createRequestContainer();
+    createRequestLabel();
     createRequestInput();
     createDateContainer();
+    createDateLabel();
     createDateInput();
     createTimeContainer();
+    createTimeLabel();
     createTimeInput();
     createSubmitContainer();
     createSubmitInput();
-}
+};

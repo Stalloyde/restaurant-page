@@ -62,7 +62,7 @@ const tabContent = document.querySelector(".tab-content");
     function createOpeningHoursContainer () { 
         openingHoursContainer.className = "opening-hours-container";
         infoContainer.appendChild(openingHoursContainer);
-        openingHoursContainer.textContent += "Opening Hours:";         
+        openingHoursContainer.textContent = "Opening Hours:";         
     };
 
     function createOpeningHoursInfo () {
@@ -74,7 +74,7 @@ const tabContent = document.querySelector(".tab-content");
     function createLocationContainer () { 
         locationContainer.className = "location-container";
         infoContainer.appendChild(locationContainer);
-        locationContainer.textContent += "Location:";
+        locationContainer.textContent = "Location:";
     };
     
     function createLocationInfo () {
