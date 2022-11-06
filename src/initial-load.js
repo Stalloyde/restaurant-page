@@ -14,7 +14,6 @@ const tabButtons = document.createElement("div")
 tabButtons.className = "tab-buttons";
 tabContainer.appendChild(tabButtons);
 
-
 export function createHomeTab () {
     const homeTab = document.createElement("button");
     homeTab.className = "home-tab";

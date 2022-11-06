@@ -2,7 +2,7 @@ import _ from 'lodash';
 import './style.css';
 import {loadImages, createHomeTab, createMenuTab, createReserveTab} from './initial-load.js';
 import {homeTabContent} from './home-tab.js';
-import {menuTabContent} from './menu-tab.js';
+import {menuTabContentTitle, menuTabContentImage} from './menu-tab.js';
 import {reserveTabContent} from './reserve-tab.js';
 
 function activateReserveBtn () {
@@ -32,7 +32,8 @@ function loadHomePage () {
 
 function loadMenuPage () {
     clearPage();
-    menuTabContent();
+    menuTabContentTitle();
+    menuTabContentImage();
 };
 
 function loadReservePage () {
